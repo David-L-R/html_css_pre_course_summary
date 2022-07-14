@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 h1 {
   color: #3333ff;
 }
@@ -16,4 +20,55 @@ ol {
 
 span {
   font-weight: bold;
+}
+
+.table {
+  /* display: table; */
+  width: 100%;
+}
+
+.row {
+  margin-bottom: 20px;
+  /* display: table-row; */
+  width: 100%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+
+  width: 100px;
+
+  display: inline-block;
+  padding: 20px;
+  width: 30%;
+  /* display: table-cell; */
+  /* vertical-align: middle; */
+  margin-left: calc(5% - 4px);
+}
+
+.card:first-child {
+  margin: 0;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card > img {
+  border-radius: 50%;
+  width: 100px;
+  float: right;
+}
+
+.button-container {
+  border-top: 1px solid black;
+  padding: 20px 0;
+  position: relative;
+}
+
+button {
+  top: 50%;
+  position: absolute;
+  right: 0;
 }
