@@ -1,0 +1,19 @@
+h1 {
+  color: #3333ff;
+}
+
+li {
+  background-color: #3333ff;
+  margin-left: 35px;
+  padding: 5px;
+}
+
+ol {
+  background-color: #00aa36;
+  padding: 20px;
+  color: #fff;
+}
+
+span {
+  font-weight: bold;
+}
